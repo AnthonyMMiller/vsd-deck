@@ -1,4 +1,4 @@
-# VSD Deck for Arch Linux
+# VSD Deck for Arch Linux Beta
 
 A native Python/Qt controller for the **VSD N4 Pro**. This is an independent Linux
 application using the manufacturer's device SDK. The Windows MSI is not needed.
