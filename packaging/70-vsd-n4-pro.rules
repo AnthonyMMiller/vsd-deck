@@ -1,0 +1,5 @@
+# N4 Pro variants listed in the manufacturer's StreamDock ProductIDs.py.
+# Grant the active local desktop session access; do not make HID world-writable.
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="5548", ATTRS{idProduct}=="1008", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="5548", ATTRS{idProduct}=="1023", TAG+="uaccess"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="5548", ATTRS{idProduct}=="1021", TAG+="uaccess"

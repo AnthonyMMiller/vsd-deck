@@ -1,0 +1,15 @@
+.venv/
+__pycache__/
+*.pyc
+*.msi
+vendor/
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.env
+.env.*
+!.env.example
+profiles.json
+*.log
+release-artifacts/
